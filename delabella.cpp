@@ -12,13 +12,23 @@ Copyright (C) 2018 GUMIX - Marcin Sokalski
 
 // assuming BITS is max(X_BITS,Y_BITS)
 
-typedef double Signed14;		// BITS			xy coords
-typedef double Signed15;		// BITS + 1		vect::xy
-typedef long double Unsigned28; // 2xBITS		z coord
-typedef long double Signed29;   // 2xBITS + 1	vect::z
-typedef long double Signed31;   // 2xBITS + 3	norm::z
-typedef long double Signed45;   // 3xBITS + 3	norm::xy
-typedef long double Signed62;   // 4xBITS + 6	dot(vect,norm)
+//typedef double Signed14;		// BITS			xy coords
+//typedef double Signed15;		// BITS + 1		vect::xy
+//typedef long double Unsigned28; // 2xBITS		z coord
+//typedef long double Signed29;   // 2xBITS + 1	vect::z
+//typedef long double Signed31;   // 2xBITS + 3	norm::z
+//typedef long double Signed45;   // 3xBITS + 3	norm::xy
+//typedef long double Signed62;   // 4xBITS + 6	dot(vect,norm)
+
+
+typedef float Signed14;		// BITS			xy coords
+typedef float Signed15;		// BITS + 1		vect::xy
+typedef float Unsigned28; // 2xBITS		z coord
+typedef float Signed29;   // 2xBITS + 1	vect::z
+typedef float Signed31;   // 2xBITS + 3	norm::z
+typedef float Signed45;   // 3xBITS + 3	norm::xy
+typedef float Signed62;   // 4xBITS + 6	dot(vect,norm)
+
 
 /*
 // above typedefs can be used to configure delabella arithmetic types
